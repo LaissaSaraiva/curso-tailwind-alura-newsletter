@@ -6,10 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Aula 01</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+           theme: {
+                extend: {
+                    colors: {
+                        primary: '#f2dae7'
+                    },
+                }
+           }
+        }
+    </script>
 </head>
 <body>
-    <div class="p-10 m-auto my-10 bg-gradient-to-r from-pink-300 to-slate-400 w-1/4">
-        <p class="font-black text-3xl">Laíssa</p>
-        <p class="text-xl">Desenvolvedora Front-end</p>
+    <div class="p-10 m-auto my-10 bg-gradient-to-r from-pink-300 to-slate-400 w-2/5">
+        <p class="font-black text-6xl text-primary">Laíssa</p>
+        <p class="text-4xl">Desenvolvedora Front-end</p>
     </div>
 </body>
